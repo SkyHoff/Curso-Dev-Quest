@@ -1,0 +1,38 @@
+.container{
+    height: 130px;
+    flex-wrap: wrap;
+}
+
+.flex-start .item,
+.flex-end .item,
+.center .item,
+.stretch .item {
+    flex: 1;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.center{
+    align-items: center;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.space-between{
+    align-content: space-between;
+}
+
+.space-around{
+    align-content: space-around;
+}
+.space-evenly{
+    align-content: space-evenly;
+}

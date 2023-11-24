@@ -1,0 +1,15 @@
+a {
+    cursor: progress;
+}
+a:visited {
+    color: orange;
+}
+
+a:active {
+    color: red;
+}
+
+a:houver {
+    background-color: red;
+    color: aliceblue;
+}

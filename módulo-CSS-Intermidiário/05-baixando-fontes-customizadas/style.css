@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'thewhitcher';
+    src: url('./fontes/Thewitcher-jnOj.ttf');
+}
+
+h1 {
+    font-family: 'thewitcher';
+}
