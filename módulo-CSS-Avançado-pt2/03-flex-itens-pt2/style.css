@@ -1,0 +1,20 @@
+.flex-0{
+    /* flex-grow, flex-shrink, flex-basis */
+    flex: 0;
+}
+
+.flex-1{
+    /* flex-grow, flex-shrink, flex-basis */
+    flex: 1;
+}
+
+.flex{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.item .item3{
+    order: 1;
+}
+
