@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Oxanium:wght@200;600;700&display=swap');
+
+:root {
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 100vh;
+}
+
+hr {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cartao {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: 5px;
+    width: 300px;
+    height: 400px;
+    gap: 30px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.foto {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.informacao {
+    margin-left: 10px;
+}
+
+.numeros {
+    text-align: center;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.numeros,
+.profile,
+.descricao {
+    font-weight: 700;
+}
+
+.idade,
+.cidade,
+.descricao {
+    color: var(--text-color);
+}
+
+@media(max-width: 425px) {
+    .cartao {
+        width: 230px;
+        height: 300px;
+        gap: 15px;
+    }
+}
